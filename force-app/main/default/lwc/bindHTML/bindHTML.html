@@ -1,0 +1,7 @@
+<template>
+    <lightning-card    title="How to bind HTML Elements in LWC and make it dynamic" class="slds-var-m-around_medium">
+        Hello, {myValue}!
+      <lightning-input type="text"  label="Dynamic value" placeholder="type here..." value={myValue}
+      onchange={handleChange}></lightning-input>
+    </lightning-card>
+</template>
